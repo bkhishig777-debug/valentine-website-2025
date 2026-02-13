@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Мөнгөжин",
+    valentineName: "Минжээ",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '🫂', '💝', '💗', '🫂'],  // Heart emojis
-        bears: ['🌊🐄', '🌊🐄']                       // Cute bear emojis
+        bears: ['👸🏻', '👸🏻']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -24,8 +24,8 @@ const CONFIG = {
         first: {
             text: "Надад дуртай юм уу?",                                    // First interaction
             yesBtn: "Тийм",                                             // Text for "Yes" button
-            noBtn: "Зайл",                                               // Text for "No" button
-            secretAnswer: "Өө бүр хайртайшдэ! ❤️"           // Secret hover message
+            noBtn: "Үгүй",                                               // Text for "No" button
+            secretAnswer: "Юуг нь асуудаг юм!❤️"           // Secret hover message
         },
         second: {
             text: "Харилцаагаа үргэлжлүүлэхийг хэр их хүсэж байна?",                          // For the love meter
@@ -35,7 +35,7 @@ const CONFIG = {
         third: {
             text: "Will you be my Valentine on February 14th, 🌹", // The big question!
             yesBtn: "Тийм!",                                             // Text for "Yes" button
-            noBtn: "Зайл"                                                 // Text for "No" button
+            noBtn: "Үгүй"                                                 // Text for "No" button
         }
     },
 
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Би ч энэ жилийг жаргалтай эхлүүлж байна даа",
-        message: "За дүүрэг тал руу гарч ирээд халуун дулаан тэврэлтээ аваарай бээб",
+        message: "Хол байгаадаа ийм өдөр чамайг ганцааранг нь үлдээж байгаа юм шиг санагдаад байна. Гэхдээ энэ нь чамайг гэх сэтгэл багассан гэсэн үг биш. Удахгүй заавал хамтдаа Валентинаа тэмдэглэнэ ээ",
         emojis: "🫂❤️"  // These will bounce around
     },
 
